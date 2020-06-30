@@ -1,32 +1,101 @@
-body {
-	width: 100%;
-	height: 100%;
-	background: url(img/em-manutencao.png) no-repeat;
+html, body { height: 100%; }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.section-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    padding: 1rem;
 }
-.menu-principal {
-	width: 100%;
-	background-color: #252323;
-	height: 50px;
-	position: absolute;
-	top: 0;
+
+p {
+    color: black !important;
 }
-main {
-	margin: 0 auto;
-	width: 980px;
-	position: relative;
+
+a {
+    text-decoration: none;
 }
-.logo {
-	float: left;
-	padding: 16px;
-	width: 75%;
+
+.rodape {
+    position: absolute;
+    height: 37vh;   
+    bottom: 0;
 }
-.redes-sociais ul li {
-	margin-left: 15px;
-	display: inline-block;
-	float: left;
-	list-style: none;
+
+.rodape svg {
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    padding: 0;
+    width: 100vw;
 }
-.redes-social {
-	width: 20%;
-	float: right;
+
+.rodape svg path {
+    fill: #273036;
+    height: 100vh;
+    width: 100vw;
+}
+    
+.foto-perfil {
+    height:auto;
+    width: auto;
+    border-radius: 50%;
+    text-align:center;
+    color:black;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0; 
+    display: flex;
+}
+
+.social-icons span {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem; 
+    line-height: 3.5rem;
+}
+
+.social-icons a:not(:last-child) {
+    margin-right: 1rem;
+}
+
+@media (max-height: 700px) {
+    .container{
+        top: 4vh;
+    }
+    .container h1 {
+        top: 30vh;
+        left: 44vw;
+    }
+    .container p {
+        top: 36vh;
+        left: 36vw;
+    }
+    .social-icons {
+        top: 46vh;
+    }
 }
