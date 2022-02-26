@@ -298,6 +298,7 @@ h4{
     top:1rem; right: -100%;
     display: flex;
     flex-flow: column;
+    transition: 0.5s;
 }
 
 .article .box-container .box:hover .share{
