@@ -338,6 +338,7 @@ h4{
     background:#fff;
     margin:2rem;
     width:30rem;
+    min-height: 25rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
