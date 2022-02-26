@@ -228,6 +228,7 @@ header.header-active .navbar a{
     align-items: center;
     justify-content: center;
     flex-flow: column;
+    transition: 0.5s;
 }
 
 .service .box-container .box:hover .info{
