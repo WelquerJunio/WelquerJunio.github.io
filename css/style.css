@@ -218,10 +218,10 @@ header.header-active .navbar a{
 }
 
 .service .box-container .box .info{
-    height:90%;
+    height:75%;
     width:90%;
     position: absolute;
-    top:50%; left:50%;
+    top:55%; left:50%;
     transform: translate(-50%, -50%) scale(0);
     background:#fff;
     display: flex;
