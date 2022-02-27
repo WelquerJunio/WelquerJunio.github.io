@@ -218,16 +218,17 @@ header.header-active .navbar a{
 }
 
 .service .box-container .box .info{
-    height:90%;
+    height:75%;
     width:90%;
     position: absolute;
-    top:50%; left:50%;
+    top:55%; left:50%;
     transform: translate(-50%, -50%) scale(0);
     background:#fff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
+    transition: 0.5s;
 }
 
 .service .box-container .box:hover .info{
@@ -298,6 +299,7 @@ h4{
     top:1rem; right: -100%;
     display: flex;
     flex-flow: column;
+    transition: 0.5s;
 }
 
 .article .box-container .box:hover .share{
@@ -336,6 +338,7 @@ h4{
     background:#fff;
     margin:2rem;
     width:30rem;
+    min-height: 25rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
@@ -366,8 +369,10 @@ h4{
 }
 
 .conquests .box-container .box ul{
-    margin:2rem 8rem;
+    margin:2rem 0;
     list-style: none;
+    display: grid;
+    justify-content: center;
 }
 
 .conquests .box-container .box ul li{
@@ -490,6 +495,7 @@ h1{
         opacity: 0;
         background:#fff;
         border-top: .1rem solid rgba(0,0,0,.3);
+        transition: 0.5s;
     }
 
     header .navbar ul{
