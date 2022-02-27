@@ -198,7 +198,7 @@ header.header-active .navbar a{
 .service .box-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -247,6 +247,36 @@ header.header-active .navbar a{
 }
 h4{
     font-size: 18px;
+}
+
+.box-service {
+    margin: 5rem 0;
+    max-width: 40rem;
+    font-size: 1.3rem;
+    word-spacing: 1.3px;
+    line-height: 20px;
+}
+
+.box-service img {
+    height: 25rem;
+    width: 40rem;
+}
+
+.box-service div:nth-child(2) {
+    text-align: initial;
+    margin: 15px 0;
+}
+
+.box-service div:nth-child(2) h4 {
+    margin-bottom: 7px;
+}
+
+.box-service a button {
+    border-radius: 50px;
+}
+
+.box-service a button::before {
+    border-radius: 50px;
 }
 
 .article{
