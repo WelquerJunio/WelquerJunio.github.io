@@ -406,7 +406,7 @@ h4{
     margin:2rem 0;
     list-style: none;
     display: grid;
-    justify-content: center;
+    justify-content: start;
 }
 
 .conquests .box-container .box ul li{
